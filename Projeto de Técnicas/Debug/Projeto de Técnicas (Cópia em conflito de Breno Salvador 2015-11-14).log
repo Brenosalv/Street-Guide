@@ -1,0 +1,10 @@
+﻿Build started 14/11/2015 17:34:25.
+     1>Project "C:\Users\Breno\Dropbox\Projeto de tecnicas\Projeto de Técnicas\Projeto de Técnicas\Projeto de Técnicas.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Projeto de Técnicas (Cópia em conflito de bruno longo 2015-11-14).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>Link:
+         Projeto de Técnicas.vcxproj -> C:\Users\Breno\Dropbox\Projeto de tecnicas\Projeto de Técnicas\Debug\Projeto de Técnicas.exe
+     1>Done Building Project "C:\Users\Breno\Dropbox\Projeto de tecnicas\Projeto de Técnicas\Projeto de Técnicas\Projeto de Técnicas.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.21

@@ -1,0 +1,37 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Polícia_data" version="1.3.0" audacityversion="2.1.1" sel0="0.0000000000" sel1="0.0000000000" vpos="0" h="0.0000000000" zoom="86.1328125000" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags/>
+	<wavetrack name="Faixa de áudio" channel="0" linked="1" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="620032">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000d0a.au" len="182101" min="-0.171783" max="0.169769" rms="0.035372"/>
+				</waveblock>
+				<waveblock start="182101">
+					<simpleblockfile filename="e0000054.au" len="218965" min="-0.259613" max="0.252502" rms="0.052019"/>
+				</waveblock>
+				<waveblock start="401066">
+					<simpleblockfile filename="e0000d4b.au" len="218966" min="-0.221405" max="0.232574" rms="0.039466"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Faixa de áudio" channel="1" linked="0" mute="0" solo="0" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0">
+		<waveclip offset="0.00000000">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="620032">
+				<waveblock start="0">
+					<simpleblockfile filename="e0000680.au" len="182101" min="-0.17392" max="0.17218" rms="0.035893"/>
+				</waveblock>
+				<waveblock start="182101">
+					<simpleblockfile filename="e000054e.au" len="218965" min="-0.263397" max="0.255859" rms="0.052743"/>
+				</waveblock>
+				<waveblock start="401066">
+					<simpleblockfile filename="e0000b51.au" len="218966" min="-0.224213" max="0.235779" rms="0.040014"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>

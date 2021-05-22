@@ -1,0 +1,258 @@
+﻿Build started 26/11/2015 13:56:21.
+     1>Project "C:\Users\Breno\Dropbox\Projeto de tecnicas\Projeto de Técnicas\Projeto de Técnicas\Projeto de Técnicas.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Projeto de Técnicas (Cópia em conflito de bruno longo 2015-11-14).vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\VCpp /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Bancos.cpp Bar.cpp Calcados.cpp Consultorio.cpp Eletrodomesticos.cpp Endereco.cpp Escola.cpp Estabelecimento.cpp Farmacia.cpp Lanchonete.cpp main.cpp Policia.cpp PostoDeSaude.cpp Restaurante.cpp RFID.cpp Roupa.cpp
+         Roupa.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3): warning C4584: 'Roupa' : base-class 'RFID' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3): warning C4584: 'Roupa' : base-class 'Endereco' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>Roupa.cpp(17): error C2511: 'int Roupa::TagHandler(Roupa)' : overloaded member function not found in 'Roupa'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3) : see declaration of 'Roupa'
+     1>Roupa.cpp(19): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Roupa.cpp(19): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Roupa.cpp(21): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Roupa.cpp(24): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         RFID.cpp
+     1>RFID.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Restaurante.cpp
+     1>Restaurante.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         PostoDeSaude.cpp
+     1>PostoDeSaude.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Policia.cpp
+     1>Policia.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         main.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8): error C2011: 'RFID' : 'class' type redefinition
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3): error C2011: 'Endereco' : 'class' type redefinition
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): error C2011: 'Estabelecimento' : 'class' type redefinition
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bancos.h(5): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bancos.h(5): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bancos.h(5): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bar.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bar.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bar.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Calcados.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Calcados.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Calcados.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Eletrodomesticos.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Eletrodomesticos.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Eletrodomesticos.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Policia.h(4): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Policia.h(4): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Policia.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Escola.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Escola.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Escola.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\PostoDeSaude.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\PostoDeSaude.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\PostoDeSaude.h(3): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Restaurante.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Restaurante.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Restaurante.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Roupa.h(3): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Farmacia.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Farmacia.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Farmacia.h(3): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(4): error C2504: 'Endereco' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Consultorio.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Consultorio.h(3): error C2504: 'RFID' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Consultorio.h(4): error C2504: 'Endereco' : base class undefined
+     1>main.cpp(18): error C2079: 'phidget' uses undefined class 'RFID'
+     1>main.cpp(29): error C2079: 'end' uses undefined class 'Endereco'
+     1>main.cpp(34): error C2228: left of '.rfid_simple' must have class/struct/union
+                 type is 'int'
+     1>main.cpp(46): error C2228: left of '.informacoesTexto' must have class/struct/union
+                 type is 'int'
+     1>main.cpp(58): error C2664: 'int Roupa::TagHandler(RFID)' : cannot convert argument 1 from 'Roupa' to 'RFID'
+                 Source or target has incomplete type
+     1>main.cpp(62): error C2228: left of '.TagHandler' must have class/struct/union
+                 type is 'int'
+         Lanchonete.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3): error C2504: 'Estabelecimento' : base class undefined
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(4): warning C4584: 'Lanchonete' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>Lanchonete.cpp(4): error C2039: 'nome' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(5): error C2039: 'tipo' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(6): error C2039: 'hora_func' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(7): error C2039: 'telefone' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(11): error C2039: 'nome' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(11): error C2039: 'tipo' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(12): error C2039: 'hora_func' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(12): error C2039: 'telefone' : is not a member of 'Lanchonete'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Lanchonete.h(3) : see declaration of 'Lanchonete'
+     1>Lanchonete.cpp(18): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Lanchonete.cpp(18): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Lanchonete.cpp(20): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Lanchonete.cpp(23): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         Farmacia.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Farmacia.h(3): warning C4584: 'Farmacia' : base-class 'RFID' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Farmacia.h(3): warning C4584: 'Farmacia' : base-class 'Endereco' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>Farmacia.cpp(18): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Farmacia.cpp(18): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Farmacia.cpp(20): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Farmacia.cpp(23): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         Estabelecimento.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+         Escola.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Escola.h(3): warning C4584: 'Escola' : base-class 'RFID' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Escola.h(4): warning C4584: 'Escola' : base-class 'Endereco' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>Escola.cpp(18): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Escola.cpp(18): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Escola.cpp(20): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Escola.cpp(23): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         Endereco.cpp
+     1>Endereco.cpp(16): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+         Eletrodomesticos.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Eletrodomesticos.h(3): warning C4584: 'Eletrodomesticos' : base-class 'RFID' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Eletrodomesticos.h(4): warning C4584: 'Eletrodomesticos' : base-class 'Endereco' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>Eletrodomesticos.cpp(7): error C2146: syntax error : missing ';' before identifier 'E'
+     1>Eletrodomesticos.cpp(19): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Eletrodomesticos.cpp(19): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Eletrodomesticos.cpp(21): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Eletrodomesticos.cpp(24): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         Consultorio.cpp
+     1>Consultorio.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Calcados.cpp
+     1>Calcados.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Bar.cpp
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3): warning C4584: 'Estabelecimento' : base-class 'RFID' is already a base-class of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bar.h(3): warning C4584: 'Bar' : base-class 'RFID' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\RFID.h(8) : see declaration of 'RFID'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Bar.h(4): warning C4584: 'Bar' : base-class 'Endereco' is already a base-class of 'Estabelecimento'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Endereco.h(3) : see declaration of 'Endereco'
+                 c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\Estabelecimento.h(3) : see declaration of 'Estabelecimento'
+     1>Bar.cpp(18): error C2385: ambiguous access of 'rfid'
+                 could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+                 or could be the 'rfid' in base 'RFID'
+     1>Bar.cpp(18): error C2664: 'int CPhidgetRFID_setLEDOn(CPhidgetRFIDHandle,int)' : cannot convert argument 1 from 'CPhidgetHandle' to 'CPhidgetRFIDHandle'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>Bar.cpp(20): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+     1>Bar.cpp(23): error C2385: ambiguous access of 'tagval'
+                 could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+                 or could be the 'tagval' in base 'RFID'
+         Bancos.cpp
+     1>Bancos.cpp : fatal error C1041: cannot open program database 'c:\users\breno\dropbox\projeto de tecnicas\projeto de técnicas\projeto de técnicas\debug\vc120.pdb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+         Generating Code...
+     1>Done Building Project "C:\Users\Breno\Dropbox\Projeto de tecnicas\Projeto de Técnicas\Projeto de Técnicas\Projeto de Técnicas.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:23.49
